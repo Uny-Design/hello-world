@@ -9,7 +9,7 @@
 import React from 'react';
 
 function HelloWorld() {
-  return <h1>Hello World</h1>;
+  return <h1 className='title-intro'>Hello World</h1>;
 }
 
-export { HelloWorld };
+export default HelloWorld;
