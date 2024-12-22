@@ -1,7 +1,7 @@
-import React, { StrictMode } from 'react';
+import React, { Component } from 'react';
 
-const HelloWorld = () => {
-  return <h1>Hello World</h1>;
-};
-
-export { HelloWorld };
+export default class HelloWorld extends Component {
+  render() {
+    return <h1>Hello World</h1>;
+  }
+}
