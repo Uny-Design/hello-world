@@ -2,7 +2,7 @@
   "name": "hello-world-react-npm-module",
   "version": "1.0.0",
   "description": "A hello world react npm module",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel --out-file index.jsx"
