@@ -149,4 +149,4 @@ var HelloWorld =
     return HelloWorld;
   })(_react.Component);
 
-exports.default = HelloWorld;
+export default HelloWorld;
