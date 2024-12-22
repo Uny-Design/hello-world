@@ -1,9 +1,11 @@
-# Hello World
+# Hello World react component
 
 This will be a how to guide for your fellow developers
 
 ```
-import HelloWorld from 'hello-world'
-
 <HelloWorld />
 ```
+
+# etc
+
+Thanks

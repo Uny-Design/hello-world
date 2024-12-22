@@ -1,7 +1,7 @@
 {
-  "name": "hello-world",
+  "name": "hello-world-react-npm-module",
   "version": "1.0.0",
-  "description": "Hello World test module",
+  "description": "A hello world react npm module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,18 +11,22 @@
     "type": "git",
     "url": "git+https://github.com/Uny-Design/hello-world.git"
   },
-  "author": "Antonina Osypenko",
-  "license": "MIT",
+  "author": "Manoj Singh Negi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uny-Design/hello-world/issues"
+  },
+  "homepage": "https://github.com/Uny-Design/hello-world#readme",
   "peerDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.3"
   }
 }

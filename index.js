@@ -1,7 +1,5 @@
 'use strict';
 
-const { HelloWorld } = require('./src');
-
 Object.defineProperty(exports, '__esModule', {
   value: true,
 });
@@ -137,11 +135,7 @@ var HelloWorld =
       {
         key: 'render',
         value: function render() {
-          return _react.default.createElement(
-            'div',
-            null,
-            'I am a dummy react npm module'
-          );
+          return _react.default.createElement('div', null, 'Hello World');
         },
       },
     ]);
@@ -149,4 +143,4 @@ var HelloWorld =
     return HelloWorld;
   })(_react.Component);
 
-export default HelloWorld;
+exports.default = HelloWorld;
