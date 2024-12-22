@@ -135,7 +135,7 @@ var HelloWorld =
       {
         key: 'render',
         value: function render() {
-          return _react.default.createElement('div', null, 'Hello World');
+          return _react.default.createElement('div', null, 'XXXXXXXXXXX');
         },
       },
     ]);
