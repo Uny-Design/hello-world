@@ -2,7 +2,7 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "Hello World test module",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/.bin/babel src --out-file index.js"
@@ -14,11 +14,11 @@
   "author": "Antonina Osypenko",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   }
 }
