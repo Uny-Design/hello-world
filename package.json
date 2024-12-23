@@ -1,7 +1,7 @@
 {
   "name": "hello-world",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "repository": "git@github.com:Uny-Design/hello-world.git",
   "author": "emagweb <emagcodeshake@gmail.com>",
   "license": "MIT",
