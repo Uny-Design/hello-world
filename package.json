@@ -5,9 +5,6 @@
   "repository": "git@github.com:Uny-Design/hello-world.git",
   "author": "emagweb <emagcodeshake@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "build": "babel src --out-dir dist"
-  },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
