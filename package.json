@@ -1,35 +1,20 @@
 {
-  "name": "hello-world-react-npm-module",
+  "name": "hello-world",
   "version": "1.0.0",
-  "description": "A hello world react npm module",
-  "main": "index.jsx",
+  "main": "dist/index.js",
+  "repository": "git@github.com:Uny-Design/hello-world.git",
+  "author": "emagweb <emagcodeshake@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/babel --out-file index.jsx"
+    "build": "babel src --out-dir dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Uny-Design/hello-world.git"
-  },
-  "author": "Manoj Singh Negi",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Uny-Design/hello-world/issues"
-  },
-  "homepage": "https://github.com/Uny-Design/hello-world#readme",
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/plugin-transform-private-property-in-object": "^7.25.9",
+    "@babel/cli": "^7.26.4",
+    "@babel/preset-env": "^7.26.0",
     "@babel/preset-react": "^7.26.3"
   }
 }
